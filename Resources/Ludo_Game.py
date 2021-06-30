@@ -11,7 +11,10 @@ root.resizable(width=False, height=False)  # The window size of the game.
 root.geometry('1360x760')
 root.configure(background='green')
 root.title("Classic Ludo")
-root.wm_iconbitmap("icon.ico")
+try:
+	root.wm_iconbitmap("icon.ico")
+except Exception as e:
+	print(e)
 logo = PhotoImage(file="whitebox.gif")      # Loading all the image files that are required in the game.
 logo2 = PhotoImage(file="red side.gif")     # Loading all the image files that are required in the game.
 logo3 = PhotoImage(file="red.gif")          # Loading all the image files that are required in the game.
