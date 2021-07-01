@@ -8,13 +8,7 @@ import tkinter.messagebox
 root = Tk()
 
 root.resizable(width=False, height=False)  # The window size of the game.
-try:
-    screen_width = root.winfo_screenwidth()
-    screen_height = root.winfo_screenheight()
-    root.geometry(f"{screen_width}x{screen_height}")
-except Exception as e:
-    print(e)
-    root.geometry('1360x760')
+root.geometry('1360x760')
 root.configure(background='green')
 root.title("Classic Ludo")
 try:
