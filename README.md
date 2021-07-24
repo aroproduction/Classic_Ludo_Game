@@ -4,11 +4,13 @@ Developed By ARITRA DUTTA BANIK (aro)
 
 ::::::::::::::Find Me:::::::::::::::::::
 
-Facebook:https://www.facebook.com/aritra.duttabanik.3
+LinkedIn: https://www.linkedin.com/in/aritra-dutta-banik-b6b535215/
+
+Instagram: https://www.instagram.com/klerk_code/
 
 E-mail: productionofaro@gmail.com
 
 ***** IF YOU FIND ANY ERRORS OR ANY PROBLEMS RELATED THIS PROGRAM, CONTACT AT ANY OF THE ABOVE OPTIONS*****  
 
 
-#THANK YOU FOR DOWNLOADING#
+#THANK YOU FOR VISITING#

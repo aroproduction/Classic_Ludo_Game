@@ -1,14 +1,38 @@
 from tkinter import *  # Tkinter is used as the GUI.
 from tkinter import messagebox
-import sys
-import os
 import random
 import tkinter.messagebox
 
 root = Tk()
 
-root.resizable(width=False, height=False)  # The window size of the game.
-root.geometry('1360x760')
+# root.resizable(width=False, height=False)  # The window size of the game.
+# root.geometry('1360x760')
+try:
+    sc_width = root.winfo_screenwidth()
+    sc_height = root.winfo_screenheight()
+    root.geometry(f"{sc_width}x{sc_height}")
+    root.minsize(width=sc_width, height=sc_height)
+except Exception:
+    pass
+root.state("zoomed")
+
+# Menu_Functions
+
+
+def fullscreen(event):
+    root.attributes('-fullscreen', True)
+
+
+def exit_fs(event):
+    root.attributes('-fullscreen', False)
+
+
+try:
+    root.bind('<F11>', fullscreen)
+    root.bind('<Escape>', exit_fs)
+except Exception:
+    pass
+
 root.configure(background='green')
 root.title("Classic Ludo")
 try:
