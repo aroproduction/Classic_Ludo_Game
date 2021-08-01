@@ -14,7 +14,10 @@ try:
     root.minsize(width=sc_width, height=sc_height)
 except Exception:
     pass
-root.state("zoomed")
+try:
+    root.state("zoomed")
+except Exception:
+    pass
 
 # Menu_Functions
 
